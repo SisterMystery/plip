@@ -17,7 +17,7 @@ var server = net.createServer(function(c) { //'connection' listener
 		}
 		});	
 	
-  c.write('Welcome to puddle 10.10.117.114\r\n');
+  c.write('Welcome to puddle 10.10.117.106\r\n');
   //c.pipe(c);
 });
 server.listen(8124, function() { //'listening' listener
